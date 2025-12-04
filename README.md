@@ -1,6 +1,6 @@
 # 🚀 SauceDemo Selenium Automation (Java + TestNG + Maven)
 
-Project ini adalah Project mandiri automation testing untuk website **SauceDemo** menggunakan **Selenium WebDriver (Java)**.  
+Project ini adalah **projek mandiri** untuk automation testing pada website **[SauceDemo](https://www.saucedemo.com/)** menggunakan **Selenium WebDriver (Java)**.
 Test yang dibuat mencakup berbagai skenario penting: login, cart operations, checkout, sorting, dan end-to-end flow.
 
 Seluruh test dijalankan menggunakan **TestNG** dan struktur project mengikuti konsep **Page Object Model (POM)**.
@@ -8,13 +8,14 @@ Seluruh test dijalankan menggunakan **TestNG** dan struktur project mengikuti ko
 ---
 
 ## 📌 Tech Stack
-- **Java 17**
-- **Selenium WebDriver 4**
-- **TestNG**
-- **Maven**
-- **Page Object Model (POM)**
-- **ChromeDriver**
-- **DataProvider (Multi User Testing)**
+
+* **Java 17**
+* **Selenium WebDriver 4**
+* **TestNG**
+* **Maven**
+* **Page Object Model (POM)**
+* **ChromeDriver**
+* **DataProvider (Multi User Testing)**
 
 ---
 
@@ -56,34 +57,40 @@ SauceDemo-Selenium-Test/
 ├── .gitignore
 ├── pom.xml
 └── Test Results - D__1-Selenium_Project_Selenium_opencart-selenium-automation_src_test_resources_testng_xml.html
+```
 
 ---
 
 ## 🧪 Automated Test Coverage
 
-### ✔ Login Tests  
-- Login dengan beberapa user:
-  - `standard_user`
-  - `problem_user`
-  - `performance_glitch_user`
-  - `error_user`
-  - `visual_user`
+### ✔ Login Tests
 
-### ✔ Inventory Tests  
-- Add to cart  
-- Remove from cart  
-- View cart  
+* Login dengan beberapa user:
 
-### ✔ Checkout Tests  
-- Input user information  
-- Checkout overview page  
-- Complete order  
+  * `standard_user`
+  * `problem_user`
+  * `performance_glitch_user`
+  * `error_user`
+  * `visual_user`
 
-### ✔ Sorting Tests  
-- Sort A-Z  
-- Sort Z-A  
-- Sort Price Low-High  
-- Sort Price High-Low  
+### ✔ Inventory Tests
+
+* Add to cart
+* Remove from cart
+* View cart
+
+### ✔ Checkout Tests
+
+* Input user information
+* Checkout overview page
+* Complete order
+
+### ✔ Sorting Tests
+
+* Sort A-Z
+* Sort Z-A
+* Sort Price Low-High
+* Sort Price High-Low
 
 ---
 
@@ -95,38 +102,39 @@ SauceDemo-Selenium-Test/
 2. Pilih **Run 'testng.xml'**
 
 ### **Via Terminal**
+
 ```
 mvn clean test
 ```
 
 ---
 
-## 📊 Test Report (HTML)
-Hasil run otomatis ada di:
+## 📊 Test Report
 
-```
-test-output/index.html
-```
+berikut hasil dari pengujian menggunakan selenium webdriver
 
-Bisa dibuka via browser.
+* **HTML Report:** [Buka di sini](https://github.com/astri016/SauceDemo-Selenium-Test/blob/master/Test%20Results%20-%20D__1-Selenium_Project_Selenium_opencart-selenium-automation_src_test_resources_testng_xml.html)
+* **PDF Report:** [Buka di sini](https://github.com/astri016/SauceDemo-Selenium-Test/blob/master/SauceDemo_TestReport_Run1_2025-12-04.pdf)
 
 ---
 
 ## 📎 Manual & Cypress Automation (Repo Lain)
 
-Kalo mau lihat versi:
-- **Manual Testing**
-- **Automation Cypress**
+Versi lain project:
 
-Link lengkap bisa diakses di sini 👇  
-👉 https://github.com/astri016/Saucedemo-QA-Automation-Manual
+* **Manual Testing**
+* **Automation Cypress**
 
----
-
-## 👩‍💻 Author
-**Astri Siahaan**  
-Quality Assurance Engineer  
+Link lengkap:
+👉 [https://github.com/astri016/Saucedemo-QA-Automation-Manual](https://github.com/astri016/Saucedemo-QA-Automation-Manual)
 
 ---
 
-## ⭐ If you like this project, don’t forget to give it a star!
+# 🌸👩🏻‍💻 **Author**
+
+**Astri Yuliana Siahaan**
+QA enthusiast
+
+✨ *Project pribadi ini masih dalam tahap pengembangan. Mohon dimaklumi jika ada kekurangan, dan saya sangat terbuka untuk masukan, saran, maupun kolaborasi.*
+
+---
